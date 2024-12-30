@@ -1,0 +1,15 @@
+{
+  "name": "mern_recaptcha_verification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.13.3"
+  }
+}
